@@ -1,0 +1,26 @@
+.group .body-part{
+	display:none;
+	padding: 19px 25px;
+}
+.accordion{
+	border:1px solid #dfdbdb;
+	padding: 25px 0;
+} 
+.group{
+	margin-top: -10px;
+	margin-left: 21px;
+}
+.group a::after{
+	content:"+"; 
+	float:right;
+	padding-right:-5px;
+	margin-right:31px;
+	cursor: pointer;
+}
+.active .group a::after{
+	content:"-";
+}
+.group a{
+	display: block;
+	font-size: 20px;
+}
